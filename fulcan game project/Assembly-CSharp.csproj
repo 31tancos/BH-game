@@ -52,7 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\scipts\Launcher.cs" />
-     <Compile Include="Assets\scipts\survivescene.cs" />
+     <Compile Include="Assets\scipts\SceneSurvive.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
