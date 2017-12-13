@@ -51,7 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\RandomAlphaEffect.cs" />
+     <Compile Include="Assets\scipts\PlayAnimationOnKeyPress.cs" />
+     <Compile Include="Assets\scipts\RandomAlphaEffect.cs" />
      <Compile Include="Assets\scipts\SceneLoader.cs" />
      <Compile Include="Assets\scipts\SceneSurvive.cs" />
  <Reference Include="UnityEngine.UI">

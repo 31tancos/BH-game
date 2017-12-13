@@ -186,6 +186,7 @@ GameObject:
   - component: {fileID: 333686057}
   - component: {fileID: 333686056}
   - component: {fileID: 333686059}
+  - component: {fileID: 333686061}
   - component: {fileID: 333686060}
   m_Layer: 5
   m_Name: Game Title
@@ -201,7 +202,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 333686054}
   m_LocalRotation: {x: -0, y: -0, z: -0.0031688903, w: 0.999995}
-  m_LocalPosition: {x: 0, y: 87.4, z: 0}
+  m_LocalPosition: {x: 0, y: 102, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 876471369}
@@ -209,7 +210,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.363}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 87.4}
+  m_AnchoredPosition: {x: 0, y: 102}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &333686056
@@ -254,7 +255,7 @@ MonoBehaviour:
     m_MaxSize: 226
     m_Alignment: 4
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
@@ -294,9 +295,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Text: {fileID: 333686057}
-  Delay: 0.25
-  MinAlpha: 0.8
+  Delay: 0.01
+  MinAlpha: 0.4
   MaxAlpha: 1
+--- !u!114 &333686061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 333686054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a97e3509d8180d40b8f6003b90a5e6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Key: 13
+  TriggerName: Out
+  Animator: {fileID: 333686059}
 --- !u!1 &761427049
 GameObject:
   m_ObjectHideFlags: 0
@@ -309,6 +324,7 @@ GameObject:
   - component: {fileID: 761427052}
   - component: {fileID: 761427051}
   - component: {fileID: 761427054}
+  - component: {fileID: 761427055}
   m_Layer: 5
   m_Name: press enter
   m_TagString: Untagged
@@ -404,6 +420,20 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &761427055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 761427049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a97e3509d8180d40b8f6003b90a5e6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Key: 13
+  TriggerName: Out
+  Animator: {fileID: 761427054}
 --- !u!1 &876471365
 GameObject:
   m_ObjectHideFlags: 0

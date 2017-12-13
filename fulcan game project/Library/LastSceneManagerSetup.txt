@@ -3,8 +3,11 @@ sceneSetups:
   isLoaded: 1
   isActive: 1
 - path: Assets/scenes/StudioLogo.unity
-  isLoaded: 0
+  isLoaded: 1
   isActive: 0
 - path: Assets/scenes/Title.unity
+  isLoaded: 1
+  isActive: 0
+- path: Assets/scenes/Menu.unity
   isLoaded: 1
   isActive: 0
