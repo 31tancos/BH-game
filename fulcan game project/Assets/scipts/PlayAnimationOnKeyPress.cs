@@ -8,10 +8,22 @@ public class PlayAnimationOnKeyPress : MonoBehaviour {
     public KeyCode Key;
     public string TriggerName;
     public Animator Animator;
+    public float InDelay = 1f;
 
+    private bool acceptingInput = false;
+    void Start()
+    {
+        StartCoroutine(waitThenAcceptInput());
+    }
+
+    IEnumerator waitThenAcceptInput()
+    {
+        yield return new WaitForSeconds(InDelay);
+        acceptingInput = true;
+    }
     void Update()
     {
-        if (Input.GetKeyDown(Key))
+        if ( acceptingInput && Input.GetKeyDown(Key))
         {
             Animator.SetTrigger(TriggerName);
         }

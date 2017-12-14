@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\scipts\PlayAnimationOnKeyPress.cs" />
+     <Compile Include="Assets\scipts\PlayAudioOnKeyPress.cs" />
      <Compile Include="Assets\scipts\RandomAlphaEffect.cs" />
      <Compile Include="Assets\scipts\SceneLoader.cs" />
      <Compile Include="Assets\scipts\SceneSurvive.cs" />
