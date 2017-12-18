@@ -312,7 +312,7 @@ MonoBehaviour:
   Key: 13
   TriggerName: Out
   Animator: {fileID: 333686059}
-  InDelay: 1
+  InDelay: 2
 --- !u!1 &761427049
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,6 +564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Key: 13
   TargetAudioSource: {fileID: 876471372}
+  InDelay: 2
 --- !u!82 &876471372
 AudioSource:
   m_ObjectHideFlags: 0

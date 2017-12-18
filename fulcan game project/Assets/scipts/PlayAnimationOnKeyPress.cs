@@ -26,6 +26,7 @@ public class PlayAnimationOnKeyPress : MonoBehaviour {
         if ( acceptingInput && Input.GetKeyDown(Key))
         {
             Animator.SetTrigger(TriggerName);
+            acceptingInput = false;
         }
     }
 }
