@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\scipts\LoadSceneOnKey.cs" />
      <Compile Include="Assets\scipts\PlayAnimationOnKeyPress.cs" />
      <Compile Include="Assets\scipts\PlayAudioOnKeyPress.cs" />
      <Compile Include="Assets\scipts\RandomAlphaEffect.cs" />

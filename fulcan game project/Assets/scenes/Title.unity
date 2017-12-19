@@ -450,6 +450,7 @@ GameObject:
   - component: {fileID: 876471370}
   - component: {fileID: 876471372}
   - component: {fileID: 876471371}
+  - component: {fileID: 876471373}
   m_Layer: 5
   m_Name: Title UI
   m_TagString: Untagged
@@ -645,3 +646,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &876471373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 876471365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e80e3f6fbfd53004b81947b1058b493c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneToLoad: Round
+  PreKeyDelay: 2
+  PostKeyDelay: 3
+  Key: 13
