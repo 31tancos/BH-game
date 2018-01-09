@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\scipts\BattleCruiserAI.cs" />
      <Compile Include="Assets\scipts\LoadSceneOnKey.cs" />
      <Compile Include="Assets\scipts\move.cs" />
      <Compile Include="Assets\scipts\PlayAnimationOnKeyPress.cs" />
