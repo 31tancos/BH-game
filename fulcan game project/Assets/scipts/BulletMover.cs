@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class BulletMover : MonoBehaviour {
     public Rigidbody2D RigidBody;
-    public float Speed;
+    public float Force;
     void Start()
     {
-        
+        RigidBody.velocity = transform.up * Force;
     }
 }
+
