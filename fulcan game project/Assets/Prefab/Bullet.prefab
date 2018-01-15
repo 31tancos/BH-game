@@ -65,7 +65,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1223220609388022}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.19538458, y: -0.32067776, z: 0.19726562}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4507873228092526}
@@ -130,8 +130,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RigidBody: {fileID: 50167875290703666}
   Force: 5
-  BulletAngle: 0
-  BulletLife: 50
+  LifeTime: 1
+  SwingDelay: 0.5
 --- !u!212 &212932505268282208
 SpriteRenderer:
   m_ObjectHideFlags: 1

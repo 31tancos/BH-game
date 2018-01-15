@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\scipts\BattleCruiserAI.cs" />
      <Compile Include="Assets\scipts\BulletMover.cs" />
+     <Compile Include="Assets\scipts\DestroyByBoundary.cs" />
      <Compile Include="Assets\scipts\LoadSceneOnKey.cs" />
      <Compile Include="Assets\scipts\move.cs" />
      <Compile Include="Assets\scipts\PlayAnimationOnKeyPress.cs" />

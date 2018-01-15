@@ -14,12 +14,16 @@ public class move : MonoBehaviour {
 
     public GameObject Bullet;
     public Transform BulletSpawn;
+    public float FireRate;
+
+    private float nextFire;
 
     void Update()
     {
-        if (Input.GetKey(FireKey))
+        if (Input.GetKey(FireKey) && Time.time > nextFire)
         {
-            Instantiate(Bullet, BulletSpawn, BulletSpawn);
+            nextFire = Time.time + FireRate;
+            Instantiate(Bullet, BulletSpawn.position, BulletSpawn.rotation);
         }
 
     }
@@ -30,7 +34,7 @@ public class move : MonoBehaviour {
         {
             RigidBody.AddForce(Vector2.up * Force);
         }
-        else if (Input.GetKey(DownKey))
+        if (Input.GetKey(DownKey))
         {
             RigidBody.AddForce(Vector2.down * Force);
         }
