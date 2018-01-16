@@ -9,6 +9,7 @@ public class move : MonoBehaviour {
     public KeyCode LeftKey;
     public KeyCode RightKey;
     public KeyCode FireKey;
+    public AudioSource TargetAudioSource;
     public Rigidbody2D RigidBody;
     public float Force;
 
@@ -24,6 +25,7 @@ public class move : MonoBehaviour {
         {
             nextFire = Time.time + FireRate;
             Instantiate(Bullet, BulletSpawn.position, BulletSpawn.rotation);
+            TargetAudioSource.Play();
         }
 
     }

@@ -278,11 +278,12 @@ MonoBehaviour:
   LeftKey: 97
   RightKey: 100
   FireKey: 32
+  TargetAudioSource: {fileID: 0}
   RigidBody: {fileID: 551365393}
   Force: 50
   Bullet: {fileID: 1223220609388022, guid: ebac82f7df35bf94bac3ceae0ecbac34, type: 2}
   BulletSpawn: {fileID: 1843553465}
-  FireRate: 0.1
+  FireRate: 0
 --- !u!61 &551365392
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 887, y: 492}
   m_MaxSize: {x: 16012, y: 14042}
   vertical: 0
-  controlID: 141
+  controlID: 11
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -495,19 +495,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/scipts
+    - Assets/Sounds
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/scipts
+  - Assets/Sounds
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\traccale340\Documents\GitHub\BH-game\fulcan game project
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8e270000
-    m_LastClickedID: 10126
-    m_ExpandedIDs: 000000003627000000ca9a3bffffff7f
+    m_SelectedIDs: 14280000
+    m_LastClickedID: 10260
+    m_ExpandedIDs: 000000003827000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -535,7 +535,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000036270000
+    m_ExpandedIDs: 0000000038270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -620,7 +620,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: a0fbffffa6fbffff000000005e280000
+    m_ExpandedIDs: f4d8fdff4813ffffbc4dffff9296ffffa0fbffffa6fbffff00000000fa290000a62b0000322d00004a300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -671,14 +671,14 @@ MonoBehaviour:
     width: 653
     height: 554
   m_SceneLighting: 0
-  lastFramingTime: 2652.5057787945443
+  lastFramingTime: 1296.8604453554617
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.20474544, y: 1.0200326, z: 0.5625}
+    m_Target: {x: 0.96833587, y: 64.74948, z: -0.015625}
     speed: 2
-    m_Value: {x: 0.20474544, y: 1.0200326, z: 0.5625}
+    m_Value: {x: 0.96833587, y: 64.74948, z: -0.015625}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -705,9 +705,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.1091948
+    m_Target: 4.3026166
     speed: 2
-    m_Value: 7.1091948
+    m_Value: 4.3026166
   m_Ortho:
     m_Target: 1
     speed: 2
