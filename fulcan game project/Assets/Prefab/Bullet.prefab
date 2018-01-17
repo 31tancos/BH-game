@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4855160878867914}
   - component: {fileID: 50167875290703666}
   - component: {fileID: 114109019694161248}
+  - component: {fileID: 114852196053075412}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -101,7 +102,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -132,6 +133,18 @@ MonoBehaviour:
   Force: 5
   LifeTime: 1
   SwingDelay: 0.5
+--- !u!114 &114852196053075412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1223220609388022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8703d7f3bac59b4595a3519d5eb23e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeTime: 0.5
 --- !u!212 &212932505268282208
 SpriteRenderer:
   m_ObjectHideFlags: 1

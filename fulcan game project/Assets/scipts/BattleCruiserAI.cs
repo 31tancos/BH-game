@@ -12,7 +12,7 @@ public class BattleCruiserAI : MonoBehaviour {
     IEnumerator Start()
     {
         RigidBody.AddForce(Vector2.right * Force / 2);
-        while (Health != 0)
+        while (Health > 0)
         {
             RigidBody.AddForce(Vector2.left * Force);
             yield return new WaitForSeconds(MoveDelay);
@@ -20,13 +20,4 @@ public class BattleCruiserAI : MonoBehaviour {
             yield return new WaitForSeconds(MoveDelay);
          }
     }
-    /*void Update()
-    {
-
-        if (Health != 0)
-        {
-            RigidBody.AddForce(Vector2.down * Force);
-            RigidBody.AddForce(Vector2.right * Force);
-        }
-    }*/
 }

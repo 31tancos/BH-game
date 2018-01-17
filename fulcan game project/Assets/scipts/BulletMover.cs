@@ -9,7 +9,7 @@ public class BulletMover : MonoBehaviour {
     public float SwingDelay;
     void Start()
     {
-     RigidBody.velocity = transform.up * Force;
+        RigidBody.velocity= transform.up * Force;
     }
 }
 
