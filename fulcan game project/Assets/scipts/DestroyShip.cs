@@ -6,7 +6,7 @@ public class DestroyShip : MonoBehaviour {
 
     public float Health;
 
-void OnTriggerEnter(Collider other)
+void OnTriggerEnter2D (Collider2D other)
 {
     if (other.gameObject.name == "Playerlaser")
     {
