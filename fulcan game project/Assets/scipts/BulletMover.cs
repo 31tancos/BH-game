@@ -2,14 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletMover : MonoBehaviour {
+public class BulletMover : MonoBehaviour
+{
     public Rigidbody2D RigidBody;
+    public bool MoveUp;
     public float Force;
-    public float LifeTime;
-    public float SwingDelay;
     void Start()
     {
-        RigidBody.velocity= transform.up * Force;
+        if (MoveUp == true)
+        {
+            RigidBody.AddForce(Vector2.up * Force);
+        }
+        else
+        {
+            RigidBody.AddForce(Vector2.down * Force);
+        }
+
     }
 }
 

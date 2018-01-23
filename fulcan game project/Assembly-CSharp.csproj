@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\scipts\AlienScout_movement.cs" />
+     <Compile Include="Assets\scipts\AlienScout_Shoot.cs" />
      <Compile Include="Assets\scipts\BattleCruiserAI.cs" />
      <Compile Include="Assets\scipts\BulletMover.cs" />
      <Compile Include="Assets\scipts\DestroyAfterDelay.cs" />

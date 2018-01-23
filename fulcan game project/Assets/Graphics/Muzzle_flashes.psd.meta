@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 55c20f5b6b1ff284baf1e3ab5cb18a8c
-timeCreated: 1515682482
+timeCreated: 1516716490
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,7 @@ TextureImporter:
     21300002: PLayerlaser
     21300004: PowerBullet
     21300006: PowerFlash
+    21300008: SmallEnemy_Bullet
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -131,6 +132,20 @@ TextureImporter:
         y: 104
         width: 94
         height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SmallEnemy_Bullet
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 238
+        width: 6
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
