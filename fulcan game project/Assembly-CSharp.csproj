@@ -64,6 +64,7 @@
      <Compile Include="Assets\scipts\RandomAlphaEffect.cs" />
      <Compile Include="Assets\scipts\SceneLoader.cs" />
      <Compile Include="Assets\scipts\SceneSurvive.cs" />
+     <Compile Include="Assets\scipts\SpawnEnemy.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
